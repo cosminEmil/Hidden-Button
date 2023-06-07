@@ -1,6 +1,5 @@
-let buttonsNr;
 function generateButtons() {
-    buttonsNr = document.getElementById("text_box").value;
+    let buttonsNr = document.getElementById("text_box").value;
     let randomIndex = Math.floor(Math.random() * buttonsNr);
     let btnContainer = document.getElementById("buttons");
 
