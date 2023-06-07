@@ -1,0 +1,20 @@
+div#buttons button, div#buttons{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#text_box {
+    position: absolute;
+    right: 814px;
+    top: 40%;
+}
+
+#firstButton {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 45%;
+    right: 860px;
+    border-radius: 50%;
+}
