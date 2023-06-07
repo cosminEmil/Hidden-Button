@@ -5,9 +5,7 @@ function generateButtons() {
 
     for (let i = 0; i < buttonsNr; ++i) {
         let newButton = document.createElement("button");
-        newButton.id = "button" + (i + 1);
         newButton.onclick = function() {
-            let buttonId = this.id;
             if (randomIndex == i) {
                 alert("Winner");
             } else {
