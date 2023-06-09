@@ -1,4 +1,4 @@
-function display(currentButton, randomIndex) {
+function displayMessage(currentButton, randomIndex) {
         if (randomIndex == currentButton) {
             alert("Winner");
         } else {
@@ -14,7 +14,7 @@ function generateButtons() {
     for (let currentButton = 0; currentButton < buttonsNr; ++currentButton) {
         let newButton = document.createElement("button");
         newButton.onclick = function() {
-            display(currentButton, randomIndex);
+            displayMessage(currentButton, randomIndex);
         }
         newButton.innerText = "Click me";
         btnContainer.appendChild(newButton);
